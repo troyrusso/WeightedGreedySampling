@@ -17,7 +17,7 @@ if __name__ == "__main__":
     DATA_DIRECTORY = os.path.join(PROJECT_ROOT, 'Data', 'processed')
 
     ## Cluster Parameters ##
-    partition_name_input = "short"
+    partition_name_input = "cpu-g2"
     time_limit_input='2:59:59'
     memory_input='750MB'
     
