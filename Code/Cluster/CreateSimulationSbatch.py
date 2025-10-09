@@ -22,7 +22,7 @@ if __name__ == "__main__":
     memory_input='750MB'
     
     ## Define Simulation Parameters ##
-    N_REPLICATIONS = 100
+    N_REPLICATIONS = 1
     TEST_PROPORTION = 0.2
     CANDIDATE_PROPORTION = 0.8
     models_to_run = [
