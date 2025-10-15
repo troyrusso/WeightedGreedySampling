@@ -17,12 +17,12 @@ if __name__ == "__main__":
     DATA_DIRECTORY = os.path.join(PROJECT_ROOT, 'Data', 'processed')
 
     ## Cluster Parameters ##
-    partition_name_input = "short"
+    partition_name_input = "cpu-g2"
     time_limit_input='11:59:59'
     memory_input='750MB'
     
     ## Define Simulation Parameters ##
-    N_REPLICATIONS = 1
+    N_REPLICATIONS = 3
     TEST_PROPORTION = 0.2
     CANDIDATE_PROPORTION = 0.8
     models_to_run = [
